@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,500&display=swap');
+body{
+    font-family: arial;
+}
+header{
+    background-color: #31006E;
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;;
+}
+nav{
+    float: right;
+}
+#menu li{
+    display: inline-block;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu{
+    list-style-type: none;
+}
+#menu i{
+    display: none;
+    height: 40px;
+    width: 42px;
+    margin-right: 10px;
+    background-color: #ec008c;
+}
+#menu li a{
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+#menu li a:hover{
+    color: #ec008c;
+}
+.box{
+    background-color: white;
+    width: 50%;
+    padding: 15px;
+}
+.box small{
+    color: #7F7F7F;
+}
+.box h1{
+    color: #31006F;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box p{
+   color: #ec008c; 
+}
+#introduction{
+    background-color: #31006E;
+    color: white;
+}
+section{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+section h2{
+    margin-bottom: 15px;
+}
+#introduction{
+    background-image: url(https://www.cotiviti.com.np/sites/all/modules/banner/img/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#whoweare p{
+    width: 50%;
+    margin-bottom: 15px;
+}
+#whoweare{
+    background-image: url(building\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position:  calc(100% - 150px) bottom ;
+    background-size: auto 80%;
+}
+#whoweare h2{
+    color: #2e3192;
+    font-weight: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#whoweare a{
+    border-color: #2e3192;
+    color: #2e3192;
+}
+#workwithus{
+    text-align: center;
+    background-color: #00adee;
+    color: white;
+}
+.btn {
+    border: 1px solid;
+    padding: 15px;
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #ec008c;
+    color:white;
+}
+#workwithus p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#learn{
+    border: 1px solid white;
+    color: white;
+}
+#photo{
+    background-image: url(parallax-home\ \(1\).jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 400px;
+}
+#jointheteam{
+    background-image: url(join\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#list li a{
+    text-decoration: none;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: #ec008c;
+    
+}
+#list li a:hover{
+    color: #10069f;;
+}
+#list li{
+    list-style-type: none;
+    border-bottom: 1px solid #ebebeb;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#jointheteam small{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: gray;
+}
+#list li a i{
+    float: right;
+}
+#jointheteam h3{
+    text-align: center;
+    font-size: 28px;
+    color: #10069f;
+    font-weight: 300px;
+    margin-bottom: 30px;
+}
+#position p{
+    font-size: 30px;
+}
+#position{
+    text-align: center;
+}
+#position img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#graphics{
+    display: inline-block;
+}
+.ini{
+    display: inline-block;
+    width: 50%;
+}
+.ini a{
+    border-color: #10069f;
+    color: #10069f;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.ini p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+#csr{
+    background-image: url(csr-section-bg\ \(1\).jpg);
+    height: 600px;
+    background-position: bottom;
+    color: white;
+}
+#corporate{
+    float: left;
+}
+#corporate a{
+    border-color: white;
+    color: white;
+}
+.color {background: #EAEAEA;}
+footer{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 100%;
+}
+.about{
+    display: inline-block;
+}
+.navigate{
+    display: inline-block;
+    padding-right: 40px;
+}
+.copy{
+    display: inline-block;
+}
+.navigate a{
+    text-decoration: none;
+    padding-right: 90px;
+    display: block;
+    padding-bottom: 10px;
+    color: #666;
+}
+.navigate a:hover{
+    color: #ec008c;
+}
+.navigate h3{
+    padding-bottom: 15px;
+    color: #2d307c;
+    font-weight: 80;
+    font-size: 22px;
+}
+#last{
+    margin-top: 50px;
+    color: #666;
+    
+}
+#information{
+    float: right;
+    margin-right: 55px;
+
+}
+#lofo{
+    float:right;
+}
+#nepal{
+    color: #666;
+}
+/* header nav i{
+    display: none;
+} */
+@media only screen and (max-width:600px){
+    #menu li a{
+        display: none;
+    }
+    #bar{
+        /* color: #ec008c; */
+        display: block;
+    }
+}
